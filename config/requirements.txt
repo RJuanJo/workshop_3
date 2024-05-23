@@ -4,3 +4,4 @@ matplotlib
 seaborn
 fancyimpute
 scikit-learn
+geopandas
