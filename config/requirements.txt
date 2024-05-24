@@ -5,3 +5,5 @@ seaborn
 fancyimpute
 scikit-learn
 geopandas
+joblib
+kafka-python
