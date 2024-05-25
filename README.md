@@ -38,37 +38,38 @@ The credentials for connecting to the MySQL database are stored in a JSON file n
    ```
 
 3. Requirements:
+
    Make sure you have all the necessary libraries for this project.
    
    Run the following command on a terminal shell in the root of the project:
    ```python
    pip install -r config/requirements.txt
    ```
-4. Start the Docker containers:
+5. Start the Docker containers:
 
    ```bash
    docker-compose up
    ```
 
-5. Access the Kafka container:
+6. Access the Kafka container:
 
    ```bash
    docker exec -it kafka_workshop bash
    ```
 
-6. Create a Kafka topic:
+7. Create a Kafka topic:
 
    ```bash
    kafka-topics --bootstrap-server kafka_workshop:9092 --create --topic kafka_workshop3
    ```
 
-7. Run the producer script:
+8. Run the producer script:
 
    ```bash
    python producer.py
    ```
 
-8. Run the consumer script:
+9. Run the consumer script:
 
    ```bash
    python consumer.py
