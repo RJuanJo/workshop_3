@@ -7,3 +7,10 @@ scikit-learn
 geopandas
 joblib
 kafka-python
+sqlalchemy
+sqlalchemy-utils
+mysql
+mysqlclient
+mysql.connector
+pymysql
+cryptography
