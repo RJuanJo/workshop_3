@@ -10,6 +10,19 @@ This project demonstrates a simple Kafka producer and consumer setup using Pytho
 - Docker Compose
 - Python 3
 
+## Credentials
+
+The credentials for connecting to the MySQL database are stored in a JSON file named `credentials.json` located in the `config` directory. Ensure that the file contains the following fields:
+
+```json
+{
+  "host": "your_host",
+  "database": "your_database",
+  "user": "your_user",
+  "password": "your_password"
+}
+```
+
 ## Getting Started
 
 1. Clone the repository:
@@ -58,16 +71,3 @@ This project demonstrates a simple Kafka producer and consumer setup using Pytho
 
 - The producer script (`producer.py`) extracts data and sends it to the Kafka topic `kafka_workshop3`.
 - The consumer script (`consumer.py`) consumes the data from the Kafka topic, performs processing, and stores it in a MySQL database.
-
-## Credentials
-
-The credentials for connecting to the MySQL database are stored in a JSON file named `credentials.json` located in the `config` directory. Ensure that the file contains the following fields:
-
-```json
-{
-  "host": "your_host",
-  "database": "your_database",
-  "user": "your_user",
-  "password": "your_password"
-}
-```
