@@ -41,7 +41,7 @@ The credentials for connecting to the MySQL database are stored in a JSON file n
 
    Make sure you have all the necessary libraries for this project.
    
-   Run the following command on a terminal shell in the root of the project:
+   Run the following command on a terminal shell:
    ```python
    pip install -r config/requirements.txt
    ```
